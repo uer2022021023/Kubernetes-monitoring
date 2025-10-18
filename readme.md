@@ -91,7 +91,7 @@ kubectl patch svc prometheus-k8s -n monitoring -p '{"spec": {"type": "NodePort"}
 kubectl get svc -n monitoring
 ```
 
-## 📈 监控案例
+## 监控案例
 
 ### 云原生应用监控 - Etcd
 
@@ -125,10 +125,9 @@ kubectl get svc -n monitoring
 
 ### 通知渠道
 
-- 📧 邮件通知
-- 💬 企业微信
-- 🔔 PagerDuty
-- 🌐 Webhook
+-  邮件通知
+-  钉钉告警
+
 
 ## 🎯 核心技能展示
 
@@ -183,7 +182,7 @@ kubectl get svc -n monitoring
 - Scheduler 调度指标
 - Etcd 集群健康度
 
-## 🚨 告警规则示例
+##  告警规则示例
 
 ```yaml
 - alert: DomainAccessDelayExceeds1s
@@ -196,7 +195,7 @@ kubectl get svc -n monitoring
     summary: "网站访问延迟告警"
 ```
 
-## 📝 使用说明
+##  使用说明
 
 ### 添加新监控目标
 
